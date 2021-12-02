@@ -1,0 +1,155 @@
+/* -----------initialize------------- */
+
+*, *::after, *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-color: white;
+}
+
+a, li {
+    list-style: none;
+    text-decoration: none;
+}
+/* ---------------helper class ---------------*/
+
+
+.flex {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.grid {
+    display: grid;
+    place-items: center;
+    gap: 1rem;
+}
+
+.flex-contain {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1rem;
+}
+.container {
+    max-width: 1280px;
+    width: 70%;
+}
+.secondary-text {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.main-text {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1f2937;
+    padding: 1rem;
+}
+
+.btn-color, .cta-color {
+    background-color: #3882f6;
+}
+
+.hero-bg {
+    background-color: #1f2937;
+    height: 100vh;
+    width: 100%;
+}
+
+/* -----------------header---------------- */
+.logo {
+    margin-right: auto;
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.header {
+    max-width: 100%;
+    padding: 2rem;
+    position: sticky;
+    background-color: #1f2937;
+}
+
+/* --------------------hero section ------------- */
+
+button {
+    border: hidden;
+    border-radius: 1rem;
+    padding: 1rem 1rem;
+    max-width: 25%;
+    font-weight: 900;
+    font-size: 1.5rem;
+    color: white;
+}
+
+.img-box {
+    width: 50%;
+
+    background-color: #e5e7eb;
+    text-align: center;
+}
+
+/* ----------------Random Info Section ----------------- */
+
+.img-box-2 {
+    max-width: 100%;
+    height: 200px;
+ 
+    background-color: #1f2937;
+}
+
+.info-section {
+    max-width: 100%;
+    padding-block: 5rem;
+    gap: 3rem;
+}
+
+/* -------------------- quotes section ---------------- */
+
+.quotes {
+    max-width: 100%;
+    padding-block: 5rem;
+}
+
+/* ----------------------- cta section ------------------- */
+
+.cta {
+    max-width: 100%;
+    height: 50vh;
+    background-color: white;
+    color: white;
+}
+
+.cta-div {
+    border-radius: 20px;
+    height: 50%;
+    place-items: center;
+    padding-inline: 5rem;
+}
+
+button.btn-border {
+    border: 1px solid white;
+    width: 10rem;
+}
+
+/* ------------------------- footer -------------------- */
+
+footer {
+    height: 10vh;
+    background-color: #1f2937;
+    color: white;
+}
